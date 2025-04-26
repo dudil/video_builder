@@ -1,0 +1,25 @@
+[project]
+name = "video_builder"
+version = "0.1.0"
+description = "Automated pipeline to transform raw demo recordings into polished professional videos."
+authors = [
+    {name = "Dudi Levy", email = "4785835+dudil@users.noreply.github.com"},
+]
+dependencies = [
+    "ffmpeg-python>=0.2.0",
+    "opencv-python>=4.11.0.86"
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+keywords = ["video editing", "automation", "ffmpeg", "subtitle generation", "python tools", "gdpr copilot demo"]
+
+[build-system]
+requires = ["pdm-backend>=0.12"]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[project.scripts]
+vbuild = "video_builder:main_cli"
