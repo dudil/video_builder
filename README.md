@@ -1,5 +1,11 @@
 # GDPR Copilot Workspace Video Builder 🎬
 
+![Python Version](https://img.shields.io/badge/python-3.12+-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![pdmPy](https://img.shields.io/badge/package%20manager-pdm-blue)
+![MypyPy](https://img.shields.io/badge/mypy-checked-blue)
+![BlackPy](https://img.shields.io/badge/code%20style-black-black)
+
 An automated, professional-quality video processing pipeline built in Python.  
 Designed to create clean, engaging, high-quality walkthrough videos, especially for showcasing GitHub Copilot Workspace interactions.
 
@@ -79,11 +85,11 @@ See full details in [`ROADMAP.md`](./ROADMAP.md)!
 
 ## 🏆 Status
 
-| Version | Status | Notes |
-|:--------|:-------|:------|
-| v1.0    | ✅ Completed | Core modular pipeline ready |
-| v1.5    | 🔜 Planned | Quality-of-life developer upgrades |
-| v2.0    | 🔮 Future | Full studio-grade features |
+| Version | Status       | Notes                              |
+| :------ | :----------- | :--------------------------------- |
+| v1.0    | ✅ Completed | Core modular pipeline ready        |
+| v1.5    | 🔜 Planned   | Quality-of-life developer upgrades |
+| v2.0    | 🔮 Future    | Full studio-grade features         |
 
 ---
 

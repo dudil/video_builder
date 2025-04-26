@@ -1,6 +1,6 @@
 [project]
 name = "video_builder"
-version = "0.1.0"
+version = "1.0.0"
 description = "Automated pipeline to transform raw demo recordings into polished professional videos."
 authors = [
     {name = "Dudi Levy", email = "4785835+dudil@users.noreply.github.com"},
@@ -23,3 +23,12 @@ distribution = true
 
 [project.scripts]
 vbuild = "video_builder:main_cli"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.7",
+    "mypy>=1.15.0",
+]
+
+[tool.mypy]
+follow_untyped_imports = true

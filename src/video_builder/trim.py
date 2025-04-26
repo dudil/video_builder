@@ -6,7 +6,7 @@ from video_builder import settings
 
 
 def trim_all(
-    input_video: str = settings.INPUT_VIDEO, output_dir: Path = settings.TRIM_DIR
+    input_video: Path = settings.INPUT_VIDEO, output_dir: Path = settings.TRIM_DIR
 ) -> None:
     """Trim the input video into multiple clips based on TRIM_TIMES."""
     # Ensure the output directory exists
@@ -17,7 +17,7 @@ def trim_all(
     ):
         output_path = output_dir / settings.CLIP_FILENAME_FORMAT.format(idx)
         (
-            ffmpeg.input(input_video, ss=start, to=end)
+            ffmpeg.input(str(input_video), ss=start, to=end)
             .output(
                 str(output_path),
                 vcodec="libx264",
