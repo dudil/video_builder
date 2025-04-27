@@ -1,0 +1,7 @@
+1
+00:00:00,000 --> 00:00:05,000
+Code updates crafted across your project — automatically!
+
+2
+00:00:05,000 --> 00:00:10,000
+You stay fully in control — with clear explanations at every step.

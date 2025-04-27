@@ -1,0 +1,7 @@
+1
+00:00:00,000 --> 00:00:06,000
+Customize the plan — inject your own code improvements!
+
+2
+00:00:06,000 --> 00:00:10,000
+Copilot adapts, respects, and follows your lead.

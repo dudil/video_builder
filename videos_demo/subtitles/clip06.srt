@@ -1,0 +1,7 @@
+1
+00:00:00,000 --> 00:00:06,000
+Ask anything you want — freeform, no limits!
+
+2
+00:00:06,000 --> 00:00:12,000
+Copilot listens, adapts, and sharpens the solution for you!

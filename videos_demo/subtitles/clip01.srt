@@ -1,0 +1,7 @@
+1
+00:00:00,000 --> 00:00:05,000
+Launching GitHub Copilot Workspace... Let's get started!
+
+2
+00:00:05,000 --> 00:00:11,000
+Setting a real-world mission: "Make the app GDPR compliant!"
